@@ -1,22 +1,16 @@
 .header{
-    height: 55px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.leftsect{
-    width: 150px;
-}
-.ham{
-    width: 24px;
-    margin-left: 14px;
-
     
 }
-.yt{
-    width: 90px;
-    margin-left: 14px;
+.leftsect{
+    width: 169px;
+    height: 56px;
+    display: inline-block;
+    position:relative;
 
 }
 .middlesect{
@@ -28,10 +22,25 @@
     max-width: 500px;
 }
 .rightsect{
-    width: 200px;
+    width: 140px;
+    height: 40px;
     background-color: bisque;
     justify-content: center;
     align-items: stretch;
+
+}
+.ham{
+    width: 24px;
+    padding: 8px;
+    display: inline-block;
+    
+    
+}
+.yt{
+    width: 90px;
+    height: 20px;
+    padding: 15px;
+    display: inline-block;
 
 }
 .creator{

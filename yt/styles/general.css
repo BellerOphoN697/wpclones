@@ -1,12 +1,11 @@
-p{
-    font-family: Roboto , Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 body{
     margin: 0;
+    padding: 14px;
+    font-family: Roboto , Arial;
+
 }
 div{
     display: inline-block;
-    align-items: stretch;
+}
+html{
 }
