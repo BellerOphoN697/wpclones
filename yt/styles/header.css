@@ -6,12 +6,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: white;
+    padding-top: 5px;
     
 }
 .leftsect{
     display: flex;
     align-items: center;
-    margin-right: 70px;
 }
 .middlesect{
     display: flex;
@@ -22,8 +24,10 @@
     margin: 0;
 }
 .rightsect{
+    margin-right: 40px;
     display: flex;
     align-items: center;
+    column-gap: 10px;
 }
 .ham{
     width: 24px;
@@ -45,6 +49,7 @@
     border-start-start-radius: 20px;
     border-end-start-radius: 20px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0,.05);
+    width: 0;
 
 }
 .searchinput::placeholder{
