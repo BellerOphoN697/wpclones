@@ -1,13 +1,38 @@
 .box{
     display: grid;
-    grid-template-columns: 1fr;
+}
+.guide{
+    flex-direction: column;
+    margin-top: 70px;
+    position: fixed;
+    justify-content: center;
+    
+    
+    
+    
+
+}
+.guidebox{
+    display: grid;
+    align-items: center;
+    
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    width: 70px;
+    justify-content: center;
 
 
 }
-.guide{
-    width: 40px;
-    margin-top: 70px;
-    position: fixed;
+.guideimage{
+    display: grid;
+    align-items: center;
+    
+    width: 24px;
+    justify-content: center;
+
 }
 
 .vflex{
