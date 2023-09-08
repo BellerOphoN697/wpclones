@@ -1,10 +1,10 @@
 .vflex{
     display: grid;
-    column-gap: 20px;
+    column-gap: 8px;
     row-gap: 40px;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;
 }
-@media(min-width: 650px){
+@media(min-width: 730px){
     .vflex{
         grid-template-columns: 1fr  1fr;
     }
@@ -14,13 +14,14 @@
         grid-template-columns: 1fr  1fr 1fr;
     }
 }
+@media(min-width: 1170px){
+    .vflex{
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+}
 
 .tcontainer{
-    max-width: 700px;
-    min-width: 271px;
-    width: 100%;
-    margin: 8px;
-    margin-bottom: 32px;
+    min-width: 270px;
 }
 .timage{
     width: 100%;
