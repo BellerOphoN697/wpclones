@@ -99,6 +99,13 @@
     width: 100%;
     border-radius: 50%;
 }
+.tcontainer:hover{
+    .timage{
+        border-radius: 0;
+        transition: 200ms;
+    }
+    cursor: pointer;
+}
 .ttitle{
     font-size: 16px;
     font-weight:500;
