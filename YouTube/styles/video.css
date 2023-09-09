@@ -1,0 +1,128 @@
+.box{
+    display: grid;
+    margin-left: -8px;
+
+}
+.guide{
+    flex-direction: column;
+    margin-top: 70px;
+    position: fixed;
+    justify-content: center;
+    
+    
+    
+    
+
+}
+.guidebox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.guidebox:hover{
+    background-color: rgb(238, 238, 238);
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  200ms;
+
+
+}
+.guideimage{
+    width: 24px;
+}
+.guidetext{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 6px;
+}
+
+.vflex{
+    display: grid;
+    column-gap: 16px;
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+    margin-left: 82px;
+}
+@media(min-width: 730px){
+    .vflex{
+        grid-template-columns: 1fr  1fr;
+    }
+}
+@media(min-width: 950px){
+    .vflex{
+        grid-template-columns: 1fr  1fr 1fr;
+    }
+}
+@media(min-width: 1170px){
+    .vflex{
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+}
+
+.tcontainer{
+    min-width: 270px;
+    position: relative;
+}
+.timage{
+    width: 100%;
+    border-radius: 10px;
+}
+.length{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    position: absolute;
+    font-size: 12px;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    opacity: 80%;
+    right: 4px;
+    bottom: 102px;
+}
+.tinfo{
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    column-gap: 5px;
+}
+.tprofile{
+    vertical-align: top;
+    margin-top: 4px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 50%;
+}
+.tcontainer:hover{
+    .timage{
+        border-radius: 0;
+        transition: 200ms;
+    }
+    .length{
+        opacity: 0;
+        transition: 200ms;
+    }
+    cursor: pointer;
+}
+.ttitle{
+    font-size: 16px;
+    font-weight:500;
+    line-height: 22px;
+    margin-top: 10px ;
+    max-height: 44px;
+    margin-bottom: -10px;
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.tstats{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
