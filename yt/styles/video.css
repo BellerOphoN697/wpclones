@@ -1,5 +1,7 @@
 .box{
     display: grid;
+    margin-left: -12px;
+
 }
 .guide{
     flex-direction: column;
@@ -13,26 +15,19 @@
 
 }
 .guidebox{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-bottom: 16px;
     align-items: center;
-    
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    padding-top: 16px;
-    padding-bottom: 14px;
-    width: 70px;
-    justify-content: center;
-
-
 }
 .guideimage{
-    display: grid;
-    align-items: center;
-    
     width: 24px;
-    justify-content: center;
-
+}
+.guidetext{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 6px;
 }
 
 .vflex{
@@ -61,10 +56,28 @@
 
 .tcontainer{
     min-width: 270px;
+    position: relative;
 }
 .timage{
     width: 100%;
     border-radius: 10px;
+}
+.length{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    position: absolute;
+    font-size: 12px;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    opacity: 80%;
+    right: 4px;
+    bottom: 114px;
 }
 .tinfo{
     display: grid;
