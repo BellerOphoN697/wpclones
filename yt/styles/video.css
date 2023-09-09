@@ -104,6 +104,10 @@
         border-radius: 0;
         transition: 200ms;
     }
+    .length{
+        opacity: 0;
+        transition: 200ms;
+    }
     cursor: pointer;
 }
 .ttitle{
