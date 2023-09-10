@@ -1,13 +1,16 @@
-.contents,.recommend{
+.contents{
+    display: flex;
+    flex-direction: column;
     max-width: 1200px;
-    margin: auto;
-
+    justify-content: center;
 }
 .contents{
     background-color: rgb(250, 250, 250);
+    display: flex;
 }
 .category{
     height: 203px;
+    display: flex;
 }
 .categoryitem{
     display: flex;
@@ -25,6 +28,7 @@
 }
 .categorytext{
     margin-top: 6px;
+    font-size: 14px;
 }
 
 
@@ -32,10 +36,8 @@
 .recommend{
     display: flex;
     padding-top: 40px;
-    margin-left: 34.400px;
-    margin-right: 34.400px;
     justify-content: space-between;
-    column-gap: 26px;
+    column-gap: 20px;
     
 
 }
@@ -122,20 +124,18 @@
 }
 
 
-.firstsale{
+.subsect{
     position: relative;
-    margin-left: 34.400px;
-    margin-right: 34.400px;
     padding-top: 40px;
 }
 
-.firstsalehead{
+.subhead{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
-.firstsaleimage{
+.subsectimgbox{
     position: relative;
     width: 100%;
     
@@ -143,17 +143,32 @@
     overflow: hidden;
     
 }
-.firstsaleimg{
+.subsectimg{
     width: 100%;
     transition: 500ms ;
 
     border-radius: 10px;
 
 }
-.firstsaleimg:hover{
+.subsectimg:hover{
     cursor: pointer;
     transform: scale(105%);
     transition: 500ms ;
     overflow: hidden;
     
+}
+.subsectmulti{
+    display: flex;
+    column-gap: 20px;
+
+}
+.subsectvertical{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+
+}
+.withtext{
+
 }
