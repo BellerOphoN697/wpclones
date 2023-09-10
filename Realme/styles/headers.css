@@ -1,9 +1,11 @@
 .headad{
-    visibility: hidden;
     display: flex;
     height: 44px;
     align-items: center;
     background-color: rgb(28, 27, 27);
+}
+.headad{
+    display: none;
 }
 .adicon{
     width: 32px;
@@ -29,31 +31,70 @@
 }
 
 
-.head1{
+.head1,.head2,.headersmall{
+    margin: auto;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 36px;
-    align-content: space-between;
-    background-color: aqua;
+    justify-content: space-between;
+    color: rgb(102, 102, 102);
 }
-@media(max-width: 800px){
-    .head1{
-        visibility: hidden;
+@media(max-width: 799px){
+    .headersbig{
+        display: none;
     }
 }
-.lefth1{
-    flex: 1;
+.headoptiontext:hover{
+    cursor: pointer;
+
+}
+.headsection{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-shrink: 0;
 }
-.lefth1option{
+.head1option{
     font-size: 12px;
-    text-align: left;
     padding: 14px;
 }
-.righth1{
+.head2{
+    height: 60px;
+}
+.head2option{
+    font-size: 14px;
+    padding: 10px;
+
+}
+.head1option:hover,.head2option:hover{
+    color: rgb(255, 201, 21);
+}
+.headsearch{
+    width: 30px;
+}
+
+.headersmall{
     display: flex;
-    flex-direction: row;
+    width: 328px;
+    height: 44px;
+    margin: auto;
+}
+@media(min-width: 799px){
+    .headersmall{
+        display: none;
+    }
+}
+.headsmalllogo{
+    width: 74px;
+    height: 22px;
+}
+.headsmalluser{
+    width: 30px;
+
+}
+.headsmalloptions{
+    width: 30px;
+    margin-left: 10;
 }
