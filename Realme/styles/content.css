@@ -3,130 +3,142 @@
     flex-direction: column;
     max-width: 1200px;
     justify-content: center;
-}
-.contents{
     background-color: rgb(250, 250, 250);
     display: flex;
 }
-.category{
-    height: 203px;
+/*
+Category Navigation
+*/
+.navi{
     display: flex;
 }
-.categoryitem{
+.naviitem{
+    flex: 1;
     display: flex;
     flex-direction: column;
     width: 170px;
     height: 160px;
-    align-items: center;
+    align-item: center;
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
 }
-.categoryimg{
+.naviimg{
     width: 140px;
     height: 140px;
 }
-.categorytext{
+.navitext{
     margin-top: 6px;
     font-size: 14px;
 }
+.naviitem:hover{
+    cursor: pointer;
+    .naviimg{
+        transform: scale(102%);
+    }
+}
+/*
+Item Definitions
+*/
 
+.box{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    
 
-
-.recommend{
+}
+.multiboxrow{
     display: flex;
     padding-top: 40px;
     justify-content: space-between;
     column-gap: 20px;
-    
-
 }
-.recommendsect{
-    flex: 1;
-    background-color: white;
-    border-radius: 10px;
 
-}
-.recommendheading{
+.boxhead{
     display: flex;
     padding-top: 20px;
     padding-bottom: 16px;
     margin-left: 30px;
     margin-right: 30px;
-
 }
-.recommendtitle{
+.boxname{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.boxnamesmall{
     flex: 1;
     font-size: 20px;
     font-weight: 600;
-
-
 }
+
 .viewmore{
     font-size: 14px;
     font-weight: 700;
     opacity: .5;
     cursor: pointer;
-
 }
-.recommenditems{
+.item{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     cursor: pointer;
     position: relative;
-    
-
 }
-
-.recommendimage{
-    position:sticky;
-    
+.item:hover{
+    .itemimgsmall,
+    .itemimgmedium,
+    .itemimglarge{
+        transform: scale(102%);
+        transition: 500ms;    
+    }
+}
+.itemimgsmall{    
     width: 120px;
     height: 120px;
     padding: 10px;
     transition: 500ms ;
-
-
+}
+.itemimgmedium{    
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    transition: 500ms ;
+}
+.itemimglarge{
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    transition: 500ms ;
 }
 .model{
     padding-top: 10px;
     font-size: 14px;
     font-weight: 600;
-
 }
-
-
-
 .specs{
     font-size: 12px;
     padding-top: 10px;
     color: rgb(102, 102, 102);
-
 }
-.itemprice{
+.price{
     padding-top: 10px;
     color: rgb(230, 70, 46);
 }
-.itemregular{
+.pricenorm{
     text-decoration:line-through;
+    color: rgb(102, 102, 102);
+}
 
-}
-.recommenditems:hover{
-    .recommendimage{
-        padding: 5;
-        width: 130px;
-        height: 130px;
-        transition: 500ms;
-    
-    }
-}
 
 
 .subsect{
     position: relative;
     padding-top: 40px;
+    max-height: 340px;
+
 }
 
 .subhead{
