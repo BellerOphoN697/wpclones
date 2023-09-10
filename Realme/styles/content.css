@@ -1,3 +1,159 @@
+.contents,.recommend{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.contents{
+    background-color: rgb(250, 250, 250);
+}
 .category{
+    height: 203px;
+}
+.categoryitem{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 160px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.categoryimg{
+    width: 140px;
+    height: 140px;
+}
+.categorytext{
+    margin-top: 6px;
+}
+
+
+
+.recommend{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 34.400px;
+    margin-right: 34.400px;
+    justify-content: space-between;
+    column-gap: 26px;
+    
+
+}
+.recommendsect{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.recommendheading{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.recommendtitle{
+    flex: 1;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.viewmore{
+    font-size: 14px;
+    font-weight: 700;
+    opacity: .5;
+    cursor: pointer;
+
+}
+.recommenditems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    
+
+}
+
+.recommendimage{
+    position:sticky;
+    
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    transition: 500ms ;
+
+
+}
+.model{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+
+.specs{
+    font-size: 12px;
+    padding-top: 10px;
+    color: rgb(102, 102, 102);
+
+}
+.itemprice{
+    padding-top: 10px;
+    color: rgb(230, 70, 46);
+}
+.itemregular{
+    text-decoration:line-through;
+
+}
+.recommenditems:hover{
+    .recommendimage{
+        padding: 5;
+        width: 130px;
+        height: 130px;
+        transition: 500ms;
+    
+    }
+}
+
+
+.firstsale{
+    position: relative;
+    margin-left: 34.400px;
+    margin-right: 34.400px;
+    padding-top: 40px;
+}
+
+.firstsalehead{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.firstsaleimage{
+    position: relative;
+    width: 100%;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.firstsaleimg{
+    width: 100%;
+    transition: 500ms ;
+
+    border-radius: 10px;
+
+}
+.firstsaleimg:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 500ms ;
+    overflow: hidden;
     
 }
