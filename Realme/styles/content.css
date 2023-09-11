@@ -1,7 +1,7 @@
 .contents{
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    width: 1200px;
     justify-content: center;
     display: flex;
 }
@@ -9,16 +9,16 @@
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 100%;
+    margin-bottom: 60px;
+    width: 1200px;
     min-width: 100px;
+
 }
 .sectionname{
     font-size: 24px;
-    margin-top: 20px;
     font-weight: 600;
     margin-bottom: 25px;
+
 }
 
 /*
@@ -66,15 +66,17 @@ Item Definitions
     column-gap: 20px;
     border-radius: 10px;
     width: 100%;
+    max-width: 1200px;
+
 }
 .box{
     background-color: white;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 100%;
     border-radius: 10px;
-    flex-grow: 1;
+    flex: 2;
+    
 }
 .boxvertical{
     overflow: hidden;
@@ -87,7 +89,7 @@ Item Definitions
     height: 100%;
 
 }
-.box:hover,.boxvertical:hover{
+.box:hover{
     .boximg{
         cursor: pointer;
         transform: scale(105%);
@@ -120,6 +122,7 @@ Item Definitions
 }
 .boximg{
     width: 100%;
+    height: 100%;
     transition: 500ms ;
 }
 .item{
@@ -130,8 +133,22 @@ Item Definitions
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    padding: 20px;
     border-radius: 10px;
+    flex: 1;
+    width: 100%;
+}
+.itemside{
+    flex-direction: row;
+}
+.sidecontents{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 100%;
 }
 .item:hover{
     .itemimg{
@@ -144,14 +161,16 @@ Item Definitions
     color: white;
     border-radius: 12px;
     width: fit-content;
+    padding: 4px;
     padding-left: 8px;
     padding-right: 8px;
     font-size: 12px;
     line-height: 12px;
-    margin-bottom: 10px;
 }
 .itemimg{
     transition: 500ms ;
+    width: fit-content;
+    margin: 10px;
 }
 .imgsmall{    
     width: 120px;
@@ -176,8 +195,20 @@ Item Definitions
     font-weight: 600;
     margin-bottom: 8px;
 }
+.sidemodel{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
 .specs{
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(102, 102, 102);
+    opacity: .5;
+}
+.sidespecs{
+    font-size: 14px;
     margin-top: 10px;
     color: rgb(102, 102, 102);
 }
@@ -195,13 +226,56 @@ Item Definitions
 
 .price{
     color: rgb(102, 102, 102);
+    font-family: 600;
+    font-size: 12px;
+
 }
+.sideprice{
+    font-size: 12px;
+    margin-top: 70px;
+    font-weight: 600;
+
+    color: rgb(102, 102, 102);
+}
+
 .pricehot{
     padding-top: 10px;
     color: rgb(230, 70, 46);
     font-weight: 600;
+    font-size: 16px;
 }
 .pricecut{
+    font-size: 12px;
+
     text-decoration:line-through;
     color: rgb(102, 102, 102);
+}
+
+.brandcontent{
+    position: absolute;
+    z-index: 3;
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+.brandtitle{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+
+}
+.branddesc{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 14px;
+
+}
+.brandviewmore{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    top: 170px;
 }
