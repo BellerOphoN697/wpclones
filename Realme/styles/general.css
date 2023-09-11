@@ -19,3 +19,6 @@ div{
 .whit{
     background-color: white;
 }
+.flexwrap{
+    flex-wrap: wrap;
+}
