@@ -1,4 +1,5 @@
 .contents{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 1200px;
@@ -6,6 +7,7 @@
     display: flex;
 }
 .section{
+    position: relative;
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -24,7 +26,10 @@
 /*
 Category Navigation
 */
+
 .navi{
+    
+
     display: flex;
     margin-bottom: 20px;
 }
@@ -43,6 +48,8 @@ Category Navigation
     width: 140px;
     height: 140px;
     align-items: center;
+    transition: 500ms;
+
 }
 .navitext{
     margin-top: 6px;
@@ -52,7 +59,8 @@ Category Navigation
 .naviitem:hover{
     cursor: pointer;
     .naviimg{
-        transform: scale(102%);
+        transform: scale(105%);
+        transition: 500ms;
     }
 }
 
@@ -77,6 +85,9 @@ Item Definitions
     border-radius: 10px;
     flex: 2;
     
+}
+.boxelements{
+    display: flex;
 }
 .boxvertical{
     overflow: hidden;
@@ -136,6 +147,19 @@ Item Definitions
     border-radius: 10px;
     flex: 1;
     width: 100%;
+    min-height: 320px;
+}
+.elementitem{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    flex: 1;
+    width: 100%;
+
 }
 .itemside{
     flex-direction: row;
@@ -150,9 +174,9 @@ Item Definitions
     margin-left: 40px;
     width: 100%;
 }
-.item:hover{
+.item:hover,.elementitem:hover{
     .itemimg{
-        transform: scale(102%);
+        transform: scale(105%);
         transition: 500ms;    
     }
 }
@@ -207,6 +231,12 @@ Item Definitions
     color: rgb(102, 102, 102);
     opacity: .5;
 }
+.specssmall{
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(102, 102, 102);
+    opacity: .5;
+}
 .sidespecs{
     font-size: 14px;
     margin-top: 10px;
@@ -228,7 +258,17 @@ Item Definitions
     color: rgb(102, 102, 102);
     font-family: 600;
     font-size: 12px;
-
+}
+.pricehotsmall{
+    padding-top: 10px;
+    color: rgb(230, 70, 46);
+    font-weight: 600;
+    font-size: 14px;
+}
+.pricecutsmall{
+    font-size: 14px;
+    text-decoration:line-through;
+    color: rgb(102, 102, 102);
 }
 .sideprice{
     font-size: 12px;
@@ -246,7 +286,6 @@ Item Definitions
 }
 .pricecut{
     font-size: 12px;
-
     text-decoration:line-through;
     color: rgb(102, 102, 102);
 }

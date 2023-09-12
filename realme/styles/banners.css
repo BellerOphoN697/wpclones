@@ -2,4 +2,102 @@
     height: 650px;
     background-color: black;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.bannerset{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+
+}
+.bannerimg{
+    object-fit: cover;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+    display: none;
+}
+.pre,.next{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    color: white;
+    cursor: pointer;
+
+
+}
+.pre{
+    left:0%;
+}
+.next{
+    right: 0;
+}
+.dotnav{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+    z-index: 99;
+}
+.dots{
+    top:-5;
+    width: 9px;
+    height: 9px;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: gray;
+}
+.slideimg{
+    z-index: -1;
+    transition: 500ms;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six,
+#i7:checked ~ #seven{
+    z-index: 9;
+    transition: 500ms;
+
+}
+
+#i1:checked ~ .dotnav #d1,
+#i2:checked ~ .dotnav #d2,
+#i3:checked ~ .dotnav #d3,
+#i4:checked ~ .dotnav #d4,
+#i5:checked ~ .dotnav #d5,
+#i6:checked ~ .dotnav #d6,
+#i7:checked ~ .dotnav #d7{
+    background: #ffff;
+}
+
+.details{
+    margin-left: 100px;
+    top: 100px;
+    width: 50%;
+}
+.right{
+    right: 400px;
+}
+.left{
+    left: 50%;
+}
+.model{
+    margin: 0;
+
+    width: 100%;
+}
+.bl{
+    color: white;
 }
