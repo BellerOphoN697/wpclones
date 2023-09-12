@@ -74,6 +74,7 @@
     position: sticky;
     top: 0px;
     z-index: 100;
+    width: 100%;
 }
 .head2option{
     font-size: 14px;
