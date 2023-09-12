@@ -51,7 +51,7 @@
         display: none;
     }
 }
-.headoptiontext:hover{
+.dropbutton:hover{
     cursor: pointer;
 
 }
@@ -81,7 +81,7 @@
     padding: 10px;
 
 }
-.head1option:hover,.head2option:hover{
+.head1option:hover,.head2option:hover,.dropbutton:hover{
     color: rgb(255, 201, 21);
 }
 .headsearch{
@@ -111,3 +111,82 @@
     width: 30px;
     margin-left: 10;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.dropbutton{
+    font-size: 14px;
+    padding: 10px;
+    background-color: transparent;
+    border-style: none;
+    
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    transition: 500ms;
+    width: 100px;
+    max-height: 400px;
+
+}
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-content a:hover{
+    color: rgb(255, 201, 21);
+
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    transition: 500ms;
+  }
+
+.dropbox{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+}
+.dropbox img{
+    width: 80px;
+    height: 80px;
+}
+.new{
+    background-color: rgb(34, 34, 34);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 4px;
+}
+.dropmodel{
+    font-size: 14px;
+    font-weight: 600;
+}
+.dropspecs{
+    font-size: 12px;
+    margin-top: 2px;
+    color: rgb(102, 102, 102);
+    opacity: .5;
+
+}
+.dropprice{
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: 600;
+
+    color: rgb(102, 102, 102);
+}
+
+  
