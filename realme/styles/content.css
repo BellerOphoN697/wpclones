@@ -295,6 +295,8 @@ Item Definitions
     z-index: 3;
     margin-top: 40px;
     margin-left: 40px;
+    cursor: pointer;
+
 
 
 }
@@ -317,4 +319,5 @@ Item Definitions
     font-weight: 500;
     color: white;
     top: 170px;
+    cursor: pointer;
 }

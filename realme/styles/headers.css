@@ -57,6 +57,7 @@
 }
 .headsection{
     display: flex;
+    position: sticky;
     flex-direction: row;
     align-items: center;
     flex-shrink: 0;
@@ -64,6 +65,9 @@
 .head1option{
     font-size: 12px;
     padding: 14px;
+}
+.headoptiontext{
+    cursor: pointer;
 }
 .head2{
     height: 60px;
@@ -112,16 +116,14 @@
     margin-left: 10;
 }
 .dropdown{
-    position: relative;
-    display: inline-block;
-    width: 100%;
+    position: static;
+
 }
 .dropbutton{
     font-size: 14px;
     padding: 10px;
     background-color: transparent;
     border-style: none;
-    
 }
 
 .dropdown-content{
@@ -131,8 +133,8 @@
     z-index: 10;
     transition: 500ms;
     width: 100px;
-    max-height: 400px;
-
+    height: max-content;
+    background-color: white;
 }
 .dropdown-content a{
     color: black;
@@ -146,15 +148,58 @@
     
 }
 .dropdown:hover .dropdown-content{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
     transition: 500ms;
+    width: 1400px;
+    position:absolute;
+    left: -70%;
+    padding: 40px;
+    padding-left: 30%;
+    height: max-content;
+    background-color: white;
+    
   }
-
+.dropleft{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700px;
+}
+.dropoption{
+    justify-content: end;
+}
+.dropright{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1200px;
+    transition: 500ms;
+    position:absolute;
+    overflow:auto;
+    position: absolute;
+    left: 400px;
+    height: max-content;
+    background-color: white;
+}
 .dropbox{
     width: 300px;
-    height: 100px;
+    height: max-content;
     display: flex;
     background-color: white;
+    margin: 20px;
+    margin-right: 0;
+    gap: 10px;
+}
+.dropbox:hover{
+    cursor: pointer;
 }
 .dropbox img{
     width: 80px;
@@ -182,11 +227,12 @@
 
 }
 .dropprice{
+    position: absolute;
     font-size: 12px;
-    margin-top: 4px;
     font-weight: 600;
+    margin-top: 14px;
 
     color: rgb(102, 102, 102);
 }
 
-  
+    
