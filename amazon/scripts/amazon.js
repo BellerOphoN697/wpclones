@@ -1,36 +1,3 @@
-const products=[
-    {
-        image: 'images/products/vivo.jpg',
-        name: 'Vivo Y100 5G (Metal Black, 8GB RAM, 128GB Storage)',
-        rating:{
-            stars: 4.0,
-            count: 286
-
-        },
-        price: 21999
-    },
-    {
-        image: 'images/products/oneplus.jpg',
-        name: 'OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)',
-        rating:{
-            stars: 4.5,
-            count: 3901
-
-        },
-        price: 56999
-    },
-    {
-        image: 'images/products/softspun.jpg',
-        name: 'SOFTSPUN Microfiber Cloth - 5pcs - 40x40cms - 340GSM Multi-Color',
-        rating:{
-            stars: 4.5,
-            count: 27763
-
-        },
-        price: 319
-    }
-];
-
 let productsHTML='';
 
 products.forEach((product)=>{
