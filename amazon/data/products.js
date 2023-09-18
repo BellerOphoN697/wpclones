@@ -1,5 +1,6 @@
 const products = [
   {
+    id: 1,
     image: 'images/products/vivo.jpg',
     name: 'Vivo Y100 5G (Metal Black, 8GB RAM, 128GB Storage)',
     rating:{
@@ -10,6 +11,7 @@ const products = [
     price: 21999
 },
 {
+  id:2,
     image: 'images/products/oneplus.jpg',
     name: 'OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)',
     rating:{
@@ -20,6 +22,7 @@ const products = [
     price: 56999
 },
 {
+  id:3,
     image: 'images/products/softspun.jpg',
     name: 'SOFTSPUN Microfiber Cloth - 5pcs - 40x40cms - 340GSM Multi-Color',
     rating:{
@@ -30,6 +33,7 @@ const products = [
     price: 319
 },
 {
+  id:4,
     image: 'images/products/atomberg.jpg',
     name: 'atomberg Renesa 1200mm BLDC Motor 5 Star Rated Sleek Ceiling Fans with Remote',
     rating:{
@@ -40,6 +44,7 @@ const products = [
     price: 3680
 },
 {
+  id:5,
     image: 'images/products/dell.jpg',
     name: 'Dell 14 Laptop, Intel Core i5-1135G7 Processor/ 8GB/ 512GB SSD/14.0" (35.56cm) FHD Display with Comfort View',
     rating:{
@@ -50,6 +55,8 @@ const products = [
     price: 48490
 },
 {
+  id:6,
+    
     image: 'images/products/iwatch.jpg',
     name: 'Apple Watch Series 9 [GPS + Cellular 45mm] Smartwatch with Midnight Aluminum Case with Midnight Sport Band',
     rating:{
@@ -60,6 +67,8 @@ const products = [
     price: 54900
 },
 {
+  id:7,
+    
     image: 'images/products/parkavenue.jpg',
     name: 'Park Avenue Perfume for Men, Conquer 100ml | Eau De Parfum',
     rating:{
@@ -70,6 +79,8 @@ const products = [
     price: 524
 },
 {
+  id:8,
+    
     image: 'images/products/canon.jpg',
     name: 'Canon PIXMA E4570 All in One (Print, Scan, Copy) WiFi Ink Efficient Colour Printer with FAX and Auto Duplex Printing for Home/Office',
     rating:{
@@ -80,6 +91,8 @@ const products = [
     price: 8578
 },
 {
+  id:9,
+    
     image: 'images/products/everyday.jpg',
     name: 'Nestlé Everyday Dairy Whitening Powder, 400g',
     rating:{
@@ -90,6 +103,8 @@ const products = [
     price: 242
 },
 {
+  id:10,
+    
     image: 'images/products/boat.jpg',
     name: 'boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback',
     rating:{
@@ -100,6 +115,8 @@ const products = [
     price: 1499
 },
 {
+  id:11,
+    
     image: 'images/products/sony.jpg',
     name: 'Sony Alpha ILCE-7M3 Full-Frame 24.2MP Mirrorless Digital SLR Camera Body',
     rating:{
@@ -110,6 +127,8 @@ const products = [
     price: 129990
 },
 {
+  id:12,
+    
     image: 'images/products/firebolt.jpg',
     name: 'Fire-Boltt Solaris: 1.78” AMOLED Always-on Display with 368 * 448 px Resolution, 123 Sports Mode',
     rating:{
@@ -120,6 +139,8 @@ const products = [
     price: 2499
 },
 {
+  id:13,
+    
     image: 'images/products/lenovo.jpg',
     name: 'Lenovo 15.6" (39.62cm) Slim Everyday Backpack, Made in India, Compact, Water-resistant',
     rating:{
@@ -130,6 +151,8 @@ const products = [
     price: 839
 },
 {
+  id:14,
+    
     image: 'images/products/yamaha.jpg',
     name: 'YAMAHA PSR-I500 PORTABLE KEYBOARD WITH ADAPTOR',
     rating:{
@@ -140,6 +163,8 @@ const products = [
     price: 22539
 },
 {
+  id:15,
+    
     image: 'images/products/samsung.jpg',
     name: 'Samsung 653 L Frost Free Convertible 5In1, Digital Inverter Wi-Fi Enabled Side by Side Refrigerator',
     rating:{
@@ -150,6 +175,8 @@ const products = [
     price: 86990
 },
 {
+  id:16,
+    
     image: 'images/products/storybook.jpg',
     name: 'Story Book- 101 Panchatantra Stories ( Ilustrated stories for children from Ancient India)',
     rating:{
@@ -160,6 +187,8 @@ const products = [
     price: 200
 },
 {
+  id:17,
+    
     image: 'images/products/levis.jpg',
     name: 'Levi&#39;s Men Jeans',
     rating:{
@@ -170,6 +199,8 @@ const products = [
     price: 1304
 },
 {
+  id:18,
+    
     image: 'images/products/bata.jpg',
     name: 'BATA Mens Boss-Slick Formal Shoes',
     rating:{
@@ -180,6 +211,8 @@ const products = [
     price: 899
 },
 {
+  id:19,
+    
     image: 'images/products/msi.jpg',
     name: 'MSI Sword 15 A12VF, Intel 12th Gen. i7-12650H, 40CM FHD 144Hz Gaming Laptop',
     rating:{
@@ -190,6 +223,8 @@ const products = [
     price: 105990
 },
 {
+  id:20,
+    
     image: 'images/products/skybags.jpg',
     name: 'Skybags Brat Black 46 Cms Casual Backpack',
     rating:{
@@ -200,6 +235,8 @@ const products = [
     price: 629
 },
 {
+  id:21,
+    
     image: 'images/products/fasttrack.jpg',
     name: 'Fastrack Men&#39;s 100% UV protected Green Lens Square Sunglasses',
     rating:{
