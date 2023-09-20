@@ -245,5 +245,41 @@ export const products = [
 
     },
     price: 709
+},
+{
+  id:22,
+    
+    image: 'images/products/casio.jpg',
+    name: 'Casio Vintage Digital Grey Dial Unisex A-158WA-1Q ( D011 )',
+    rating:{
+        stars: 4.5,
+        count: 34703
+
+    },
+    price: 1695
+},
+{
+  id:23,
+    
+    image: 'images/products/oralb.jpg',
+    name: 'Oral B Cross Action Battery Powered Electric Toothbrush for adults, Pack of 1',
+    rating:{
+        stars: 4,
+        count: 26718
+
+    },
+    price: 539
+},
+{
+  id:24,
+    
+    image: 'images/products/philips.jpg',
+    name: 'Philips Multi Grooming Kit MG3710/65, 9-in-1 (New Model), Face, Head and Body - All-in-one Trimmer',
+    rating:{
+        stars: 4,
+        count: 12058
+
+    },
+    price: 1576
 }
 ];

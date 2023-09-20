@@ -14,9 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Here are the CSS files for this page. -->
-    <link rel="stylesheet" href="styles/shared/general.css">
-    <link rel="stylesheet" href="styles/shared/amazon-header.css">
-    <link rel="stylesheet" href="styles/pages/amazon.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/amazon-header.css">
+    <link rel="stylesheet" href="styles/amazon-footer.css">
+    <link rel="stylesheet" href="styles/amazon.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+
   </head>
   <body>
     <div class="amazon-header">
@@ -38,24 +41,65 @@
       </div>
 
       <div class="amazon-header-right-section">
-        <a class="orders-link header-link" href="orders.html">
+        <div class="orders-link header-link" >
           <span class="returns-text">Returns</span>
           <span class="orders-text">& Orders</span>
-        </a>
+        </div>
 
-        <a class="cart-link header-link" href="checkout.html">
+        <div class="cart-link header-link" >
           <img class="cart-icon" src="images/icons/cart-icon.png">
           <div class="cart-quantity js-cart-quantity">0</div>
           <div class="cart-text">Cart</div>
-        </a>
+        </div>
       </div>
     </div>
     
     <div class="main">
-      <div class="products-grid js-products-grid">
-        
+      <div class="products-grid js-products-grid row">
+        <!--To be written by js function-->
+
       </div>
     </div>
-    <script type="module" src="scripts/amazon.js"></script>
+
+    <div class="amazon-footer">
+      <form class="subscription">
+        <h6>Subscribe to our newsletters, offer alerts and more.</h6>
+        <div class="form-group">
+          <input name="mail" class="form-control"  placeholder="Enter email" >
+        </div>
+        <button type="submit" class="sub-btn">Send Message</button>
+      </div>
+      <div class="locations">
+        <img class="amazon-logo " src="images/amazon-logo-white.png">
+        <div class="location-list">
+          <ul class="location-list">
+            <li class="location-items"><a href="https://www.amazon.com.au/ref=footer_au" class="location-items">Australia</a></li>
+            <li class="location-items"><a href="https://www.amazon.com.br/ref=footer_br" class="location-items">Brazil</a></li>
+            <li class="location-items"><a href="https://www.amazon.ca/ref=footer_ca" class="location-items">Canada</a></li>
+            <li class="location-items"><a href="https://www.amazon.cn/ref=footer_cn" class="location-items">China</a></li>
+            <li class="location-items"><a href="https://www.amazon.fr/ref=footer_fr" class="location-items">France</a></li>
+            <li class="location-items"><a href="https://www.amazon.de/ref=footer_de" class="location-items">Germany</a></li>
+            <li class="location-items"><a href="https://www.amazon.it/ref=footer_it" class="location-items">Italy</a></li>
+            <li class="location-items"><a href="https://www.amazon.co.jp/ref=footer_jp" class="location-items">Japan</a></li>
+            <li class="location-items"><a href="https://www.amazon.com.mx/ref=footer_mx" class="location-items">Mexico</a></li>
+            <li class="location-items"><a href="https://www.amazon.nl/ref=footer_nl" class="location-items">Netherlands</a></li>
+            <li class="location-items"><a href="https://www.amazon.pl/ref=footer_pl" class="location-items">Poland</a></li>
+            <li class="location-items"><a href="https://www.amazon.sg/ref=footer_sg" class="location-items">Singapore</a></li>
+            <li class="location-items"><a href="https://www.amazon.es/ref=footer_es" class="location-items">Spain</a></li>
+            <li class="location-items"><a href="https://www.amazon.com.tr/ref=footer_tr" class="location-items">Turkey</a></li>
+            <li class="location-items"><a href="https://www.amazon.ae/ref=footer_ae" class="location-items">United Arab Emirates</a></li>
+            <li class="location-items"><a href="https://www.amazon.co.uk/ref=footer_uk" class="location-items">United Kingdom</a></li>
+            <li class="location-items"><a href="https://www.amazon.com/ref=footer_us" class="location-items">United States</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="data/amazon.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script src="js/jquery.validate_1.7_additional-methods.js"></script>
   </body>
 </html>

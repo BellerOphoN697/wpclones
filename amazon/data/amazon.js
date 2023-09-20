@@ -1,16 +1,17 @@
+
 //Loading other scripts to module
 import {
   cart,addToCart
-}from '../data/cart.js'
+}from './cart.js'
 import{
   products
-}from '../data/products.js'
+}from './products.js'
 let productsHTML='';
 //Listing all objects in products.
 //All details are expanded using HTML template.
 products.forEach((product)=>{
     productsHTML+=`
-        <div class="product-container">
+        <div class="product-container col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="product-image-container">
             <img class="product-image"
               src="${product.image}">
@@ -49,13 +50,9 @@ products.forEach((product)=>{
 
           <div class="product-spacer"></div>
 
-          <div class="added-to-cart">
-            <img src="images/icons/checkmark.png">
-            Added
-          </div>
 
           <button class="add-to-cart-button button-primary js-add-to-cart"
-          data-product-id="${product.id}">
+          data-product-name="${product.name}">
             Add to Cart
           </button>
         </div>
@@ -76,8 +73,48 @@ function updateCartQuantity(){
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click',()=>
   {
-    const productId=button.dataset.productId;
-    addToCart(productId);
+    const productName=button.dataset.productName;
+    addToCart(productName);
     updateCartQuantity();
   });
+  
+});
+$(document).ready(function(){
+	$(".subscription").validate({
+		rules:{
+			phone:{
+				required: true,
+				minlength: 10,
+				maxlength: 10,
+				digits: true
+			},
+			name:{
+				required: true,
+				minlength: 2,
+				maxlength: 16,
+				lettersonly: true
+				
+				
+			},
+			mail:{
+				required: true,
+				minlength: 4,
+				email: true
+			}
+		},
+		messages:{
+			phone:{
+				required: "Enter a valid mobile number",
+				digits: "Only numbers are allowed"
+			},
+			name:{
+				required: "Enter a valid name",
+				lettersonly: "Only alphabets are allowed"
+			},
+			mail:{
+				required: "Enter a valid email id",
+				email: "Enter a valid email id"
+			}
+		}
+	});
 });
