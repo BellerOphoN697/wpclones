@@ -82,19 +82,11 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
 $(document).ready(function(){
 	$(".subscription").validate({
 		rules:{
-			phone:{
-				required: true,
-				minlength: 10,
-				maxlength: 10,
-				digits: true
-			},
 			name:{
 				required: true,
 				minlength: 2,
 				maxlength: 16,
-				lettersonly: true
-				
-				
+				lettersonly: true				
 			},
 			mail:{
 				required: true,
@@ -103,10 +95,6 @@ $(document).ready(function(){
 			}
 		},
 		messages:{
-			phone:{
-				required: "Enter a valid mobile number",
-				digits: "Only numbers are allowed"
-			},
 			name:{
 				required: "Enter a valid name",
 				lettersonly: "Only alphabets are allowed"
