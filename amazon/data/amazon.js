@@ -28,11 +28,9 @@ products.forEach((product)=>{
               ${product.rating.count.toLocaleString('en-IN')}
             </div>
           </div>
-
           <div class="product-price">
             &#8377;${product.price.toLocaleString('en-IN')}
           </div>
-
           <div class="product-quantity-container">
             <select>
               <option selected value="1">1</option>
@@ -47,10 +45,7 @@ products.forEach((product)=>{
               <option value="10">10</option>
             </select>
           </div>
-
           <div class="product-spacer"></div>
-
-
           <button class="add-to-cart-button button-primary js-add-to-cart"
           data-product-name="${product.name}">
             Add to Cart
@@ -77,7 +72,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     addToCart(productName);
     updateCartQuantity();
   });
-  
 });
 $(document).ready(function(){
 	$(".subscription").validate({

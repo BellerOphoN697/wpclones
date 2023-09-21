@@ -11,7 +11,6 @@ export const cart=[
     }
     */
 ];
-
 //Add to cart function.
 //Contains steps to calculate items and pushing the number to cart icon in webpage
 export function addToCart(productName){
@@ -19,9 +18,7 @@ export function addToCart(productName){
       cart.forEach((cartItem)=>{
         if(productName===cartItem.productName){
           matchingItem=cartItem;
-  
         }
-  
       });
       if(matchingItem){
         matchingItem.quantity+=1;
@@ -31,9 +28,6 @@ export function addToCart(productName){
           productName: productName,
           quantity: 1
         });
-  
       }
-      cart.forEach((product)=>{
-        console.log(cart)
-      })
+      console.log(cart)
   }
