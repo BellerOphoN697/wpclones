@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    image: 'images/products/vivo.jpg',
+    image: 'images/products/vivo-min.jpg',
     name: 'Vivo Y100 5G (Metal Black, 8GB RAM, 128GB Storage)',
     rating:{
         stars: 4.0,
@@ -12,7 +12,7 @@ export const products = [
 },
 {
   id:2,
-    image: 'images/products/oneplus.jpg',
+    image: 'images/products/oneplus-min.jpg',
     name: 'OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)',
     rating:{
         stars: 4.5,
@@ -23,7 +23,7 @@ export const products = [
 },
 {
   id:3,
-    image: 'images/products/softspun.jpg',
+    image: 'images/products/softspun-min.jpg',
     name: 'SOFTSPUN Microfiber Cloth - 5pcs - 40x40cms - 340GSM Multi-Color',
     rating:{
         stars: 4.5,
@@ -34,7 +34,7 @@ export const products = [
 },
 {
   id:4,
-    image: 'images/products/atomberg.jpg',
+    image: 'images/products/atomberg-min.jpg',
     name: 'atomberg Renesa 1200mm BLDC Motor 5 Star Rated Sleek Ceiling Fans with Remote',
     rating:{
         stars: 4,
@@ -45,7 +45,7 @@ export const products = [
 },
 {
   id:5,
-    image: 'images/products/dell.jpg',
+    image: 'images/products/dell-min.jpg',
     name: 'Dell 14 Laptop, Intel Core i5-1135G7 Processor/ 8GB/ 512GB SSD/14.0" (35.56cm) FHD Display with Comfort View',
     rating:{
         stars: 4,
@@ -57,7 +57,7 @@ export const products = [
 {
   id:6,
     
-    image: 'images/products/iwatch.jpg',
+    image: 'images/products/iwatch-min.jpg',
     name: 'Apple Watch Series 9 [GPS + Cellular 45mm] Smartwatch with Midnight Aluminum Case with Midnight Sport Band',
     rating:{
         stars: 5,
@@ -69,7 +69,7 @@ export const products = [
 {
   id:7,
     
-    image: 'images/products/parkavenue.jpg',
+    image: 'images/products/parkavenue-min.jpg',
     name: 'Park Avenue Perfume for Men, Conquer 100ml | Eau De Parfum',
     rating:{
         stars: 4,
@@ -81,7 +81,7 @@ export const products = [
 {
   id:8,
     
-    image: 'images/products/canon.jpg',
+    image: 'images/products/canon-min.jpg',
     name: 'Canon PIXMA E4570 All in One (Print, Scan, Copy) WiFi Ink Efficient Colour Printer with FAX and Auto Duplex Printing for Home/Office',
     rating:{
         stars: 4,
@@ -93,7 +93,7 @@ export const products = [
 {
   id:9,
     
-    image: 'images/products/everyday.jpg',
+    image: 'images/products/everyday-min.jpg',
     name: 'Nestlé Everyday Dairy Whitening Powder, 400g',
     rating:{
         stars: 4.5,
@@ -105,7 +105,7 @@ export const products = [
 {
   id:10,
     
-    image: 'images/products/boat.jpg',
+    image: 'images/products/boat-min.jpg',
     name: 'boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback',
     rating:{
         stars: 4,
@@ -117,7 +117,7 @@ export const products = [
 {
   id:11,
     
-    image: 'images/products/sony.jpg',
+    image: 'images/products/sony-min.jpg',
     name: 'Sony Alpha ILCE-7M3 Full-Frame 24.2MP Mirrorless Digital SLR Camera Body',
     rating:{
         stars: 4.5,
@@ -129,7 +129,7 @@ export const products = [
 {
   id:12,
     
-    image: 'images/products/firebolt.jpg',
+    image: 'images/products/firebolt-min.jpg',
     name: 'Fire-Boltt Solaris: 1.78” AMOLED Always-on Display with 368 * 448 px Resolution, 123 Sports Mode',
     rating:{
         stars: 4.5,
@@ -141,7 +141,7 @@ export const products = [
 {
   id:13,
     
-    image: 'images/products/lenovo.jpg',
+    image: 'images/products/lenovo-min.jpg',
     name: 'Lenovo 15.6" (39.62cm) Slim Everyday Backpack, Made in India, Compact, Water-resistant',
     rating:{
         stars: 4.5,
@@ -153,7 +153,7 @@ export const products = [
 {
   id:14,
     
-    image: 'images/products/yamaha.jpg',
+    image: 'images/products/yamaha-min.jpg',
     name: 'YAMAHA PSR-I500 PORTABLE KEYBOARD WITH ADAPTOR',
     rating:{
         stars: 4.5,
@@ -165,7 +165,7 @@ export const products = [
 {
   id:15,
     
-    image: 'images/products/samsung.jpg',
+    image: 'images/products/samsung-min.jpg',
     name: 'Samsung 653 L Frost Free Convertible 5In1, Digital Inverter Wi-Fi Enabled Side by Side Refrigerator',
     rating:{
         stars: 4.5,
@@ -177,7 +177,7 @@ export const products = [
 {
   id:16,
     
-    image: 'images/products/storybook.jpg',
+    image: 'images/products/storybook-min.jpg',
     name: 'Story Book- 101 Panchatantra Stories ( Ilustrated stories for children from Ancient India)',
     rating:{
         stars: 4.5,
@@ -189,7 +189,7 @@ export const products = [
 {
   id:17,
     
-    image: 'images/products/levis.jpg',
+    image: 'images/products/levis-min.jpg',
     name: 'Levi&#39;s Men Jeans',
     rating:{
         stars: 4,
@@ -201,7 +201,7 @@ export const products = [
 {
   id:18,
     
-    image: 'images/products/bata.jpg',
+    image: 'images/products/bata-min.jpg',
     name: 'BATA Mens Boss-Slick Formal Shoes',
     rating:{
         stars: 4,
@@ -213,7 +213,7 @@ export const products = [
 {
   id:19,
     
-    image: 'images/products/msi.jpg',
+    image: 'images/products/msi-min.jpg',
     name: 'MSI Sword 15 A12VF, Intel 12th Gen. i7-12650H, 40CM FHD 144Hz Gaming Laptop',
     rating:{
         stars: 3.5,
@@ -225,7 +225,7 @@ export const products = [
 {
   id:20,
     
-    image: 'images/products/skybags.jpg',
+    image: 'images/products/skybags-min.jpg',
     name: 'Skybags Brat Black 46 Cms Casual Backpack',
     rating:{
         stars: 4,
@@ -237,7 +237,7 @@ export const products = [
 {
   id:21,
     
-    image: 'images/products/fasttrack.jpg',
+    image: 'images/products/fasttrack-min.jpg',
     name: 'Fastrack Men&#39;s 100% UV protected Green Lens Square Sunglasses',
     rating:{
         stars: 4,
@@ -249,7 +249,7 @@ export const products = [
 {
   id:22,
     
-    image: 'images/products/casio.jpg',
+    image: 'images/products/casio-min.jpg',
     name: 'Casio Vintage Digital Grey Dial Unisex A-158WA-1Q ( D011 )',
     rating:{
         stars: 4.5,
@@ -261,7 +261,7 @@ export const products = [
 {
   id:23,
     
-    image: 'images/products/oralb.jpg',
+    image: 'images/products/oralb-min.jpg',
     name: 'Oral B Cross Action Battery Powered Electric Toothbrush for adults, Pack of 1',
     rating:{
         stars: 4,
@@ -273,7 +273,7 @@ export const products = [
 {
   id:24,
     
-    image: 'images/products/philips.jpg',
+    image: 'images/products/philips-min.jpg',
     name: 'Philips Multi Grooming Kit MG3710/65, 9-in-1 (New Model), Face, Head and Body - All-in-one Trimmer',
     rating:{
         stars: 4,
