@@ -6,12 +6,48 @@
   padding-right: 15px;
 
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
 
   left: 0;
   right: 0;
   z-index: 100;
+}
+.foot-1{
+  
+
+  font-size: 14px;
+  padding: 50px;
+  justify-content: space-between;
+
+}
+.foot1-container{
+  margin-bottom: 20px;
+}
+.foot1-head{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 6px;
+  width: max-content;
+
+}
+.foot1-sect{
+  display: block;
+  color: rgb(221 221 221);
+  margin-bottom: 4px;
+  width: max-content;
+  height: max-content;
+}
+.foot1-sect:hover{
+  color: rgb(221 221 221);
+  
+}
+.subscription{
+  margin-right: 30px;
+}
+.form-group{
+  width: 100%;
+  max-width: 400px;
 }
 .sub-btn{
   background-color: rgb(254, 189, 105);
@@ -19,11 +55,16 @@
   height: 38px;
   border-radius: 4px;
   flex-shrink: 0;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-weight: 600;
+  padding-top: 10px;
 }
 .locations {
   background-color: rgb(35 47 62);
   color: white;
-  padding: 50px;
+  margin-top: 20px;
+  padding-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
   
@@ -40,6 +81,7 @@
   border-top-style: solid;
   border-top-width: 1px;
   border-color: grey;
+  width: 100%;
 }
 .location-list{
   justify-content: center;
@@ -53,4 +95,7 @@
 }
 .location-items:hover{
   color: white;
+}
+.no-hide{
+  display: block;
 }
