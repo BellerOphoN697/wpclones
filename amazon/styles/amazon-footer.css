@@ -45,7 +45,13 @@
 .subscription{
   margin-right: 30px;
 }
+
 .form-group{
+  width: 0;
+  font-size: 16px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
   width: 100%;
   max-width: 400px;
 }

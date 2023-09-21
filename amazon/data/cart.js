@@ -1,3 +1,4 @@
+
 export const cart=[
     /*
     {
@@ -32,5 +33,7 @@ export function addToCart(productName){
         });
   
       }
-      console.log(matchingItem)
+      cart.forEach((product)=>{
+        console.log(cart)
+      })
   }
